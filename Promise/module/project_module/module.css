@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    position: relative;
+
+}
+#show_btn button{
+    border: 2px solid black;
+    width: 150px;
+    margin: 2rem 3rem;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    
+
+}
+.box{
+border: 2px solid black;
+padding: 30px;
+width: 400px;
+position: absolute;
+top: 10px;
+left: 50%;
+display: none;
+}
+.box h2{
+    margin: 20px 0;
+}
+
+.box span i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}

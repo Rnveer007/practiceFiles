@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="module.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="show_btn">
+            <button> Cick Here </button>
+        </div>
+        <div class="box">
+            <span><i class="fa-solid fa-xmark"></i></span>
+            <h2>This is heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium repellendus earum nisi? Nesciunt, ipsum eius. Laboriosam nesciunt eaque ducimus aut?</p>
+        </div>
+    </div>
+
+
+    <script>
+        let btn =  document.querySelector("#show_btn button");
+        let item_box = document.querySelector(".box");
+        let icon =  document.querySelector(".box span i");
+   
+        btn.addEventListener("click", showBox);
+        function showBox(){
+            item_box.style.display = "block";
+        }
+
+        icon.addEventListener("click", hideBox);
+        function hideBox(){
+            item_box.style.display = "none";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question of Function,Array and HOF</title>
+</head>
+
+<body>
+
+    <script>
+
+         
+
+    //    function sumdata(...a) {
+    //     let sum = 0;
+    //     for(let i of a ){
+    //         sum = sum+i
+    //     }
+    //     console.log(sum);
+    //    }
+    //    sumdata(10,20,40,52,14)
+
+
+        //     // function, array, hof
+        // const arr = [1, 2, 3, 4, 5,6];
+        // const result = arr.reduce((acc, cur) => acc + cur, 0) - arr.filter(x => x % 2 === 0).length;
+        // console.log(result); // 18
+
+
+        // function, array, string
+        // let str = "Cascading";//
+        // let output = str.split('').reverse().join('').slice(0, -3).toUpperCase();
+        // console.log(output); // GNIDAC
+
+
+
+
+        // // function, array, hof
+        // const arr = [1, 2, 3, 4, 5];
+        // const result = arr.map(x => x * 2).filter(x => x > 5).reduce((acc, cur) => acc + cur, 0); 
+        // console.log(result); //24
+
+
+
+
+        // // function, array, hof
+        // const arr = [1, 2, 3, 4, 5]; 2 4 6  
+        // const result = arr.slice(1, 4).map(x => x * 2).reduce((acc, cur) => acc + cur, 0);
+        // console.log(result);  // 18
+
+
+
+        // function, string, array
+        //  let str = "The quick brown fox jumps over the lazy dog";
+        // let result = str.replace(/o/g, "0").split(" ").slice(4, 7).join("-");
+        //  console.log(result);
+        //    "the", "quick" , "brown","fox","jumps","over","the","lazy","dog"   //  1,2,3,4,5,6,7,8,9   // "jumps","over","the"
+        //  // jumps-0ver-the
+
+
+
+        // // function, string,
+
+        // let text = "JavaScript is awesome. JavaScript is fun.";
+        // let result = text.replaceAll("JavaScript", "JS").indexOf("awesome") - text.lastIndexOf("is");
+        // console.log(result);
+
+        //        // 6-34 = -28
+
+
+        //JS is awesome. JS is fun
+
+
+
+        // function, string
+        // let phrase = "Hello, World!"; 
+        // let result = phrase.slice(-6, -1).split("").reverse().join("+");
+        // console.log(result);  //  d+l+r+o+w
+
+
+        // function, string, array
+        // let str = "abcdefghijkl mnopqrst uvwxyz";  
+        // let result = str.slice(str.indexOf('m'), str.indexOf('t')).split('').filter((h, i) => i % 2 === 0).join('');
+        // console.log(result);
+
+        // Usage
+        // const nums = [-10, -5, 0, 5, 10];
+        // const positiveNumbers = filterPositiveNumbers(nums);
+        // console.log(positiveNumbers); // 
+
+
+
+        //  const nums = [-10, -5 , 0 , 5 ,10]
+        //  const newnums = nums.filter((n)=> n>=0
+        // )
+        // console.log(newnums)
+
+
+        //Usage
+
+        // const nums = [1, 2, 3, 4, 5, 6];
+        // const evenNumbers = filterEvenNumbers(nums);
+        // console.log(evenNumbers); // 
+
+
+        // const nums = [1,2,3,4,5,6]
+        // const evenNum = nums.filter((n)=> n%2===0)    // solution
+        // console.log(evenNum)
+
+
+
+        // const input = [1, 2, 3, 4, 5];
+        // output = [1, 4, 9, 16, 25]
+
+
+        // const newinput = input.map((n)=>n**2
+        // )
+
+        // console.log(newinput)
+
+        //     const newinput = input.map((n)=>n*n
+        // )
+        // console.log(newinput)
+
+
+
+        // const products = [
+        //     { name: 'Laptop', price: 1200, category: 'Electronics' },
+        //     { name: 'Mouse', price: 25, category: 'Electronics' },
+        //     { name: 'Desk', price: 300, category: 'Furniture' },
+        //     { name: 'Chair', price: 150, category: 'Furniture' },
+        //     { name: 'Headphones', price: 100, category: 'Electronics' }
+
+        // ];
+        // const category = 'Electronics';
+    
+        // //  step 1: Filter the array to get only the products in the specified category.
+        // const filteredProduct = products.filter((products) => products.category === category);
+        // //  step 2: Sort the filtered array by price.
+        // const sortedproduct = filteredProduct.sort((a,b) => a.price - b.price);
+        // //  step 3: Map the sorted array to get an array of product names.
+        // const productName = sortedproduct.map((products) => products.name);
+        // console.log(productName);
+
+
+
+        // let students = [
+        //     { name: "smith", rollnumber: 31, marks: 80 },
+        //     { name: "jenny", rollnumber: 15, marks: 69 },
+        //     { name: "john", rollnumber: 16, marks: 35 },
+        //     { name: "tiger", rollnumber: 7, marks: 55 },
+        // ];
+        // const details = students.filter((students) => students.rollnumber === rollnumber);
+        // console.log(details);
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
